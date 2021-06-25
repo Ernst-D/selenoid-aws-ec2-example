@@ -1,0 +1,25 @@
+<qa:browsers xmlns:qa="urn:config.gridrouter.qatools.ru"><browser name="MicrosoftEdge"><version number="88.0"><region name="us-east-2c"><host name="3.14.79.233" port="4444" count="1" />
+	<host name="3.18.214.24" port="4444" count="1" />
+	</region>
+	</version>
+	</browser>
+	<browser name="chrome"><version number="86.0"><region name="us-east-2c"><host name="3.14.79.233" port="4444" count="1" />
+	<host name="3.18.214.24" port="4444" count="1" />
+	</region>
+	</version>
+	<version number="88.0"><region name="us-east-2c"><host name="3.14.79.233" port="4444" count="1" />
+	<host name="3.18.214.24" port="4444" count="1" />
+	</region>
+	</version>
+	</browser>
+	<browser name="firefox"><version number="85.0"><region name="us-east-2c"><host name="3.14.79.233" port="4444" count="1" />
+	<host name="3.18.214.24" port="4444" count="1" />
+	</region>
+	</version>
+	</browser>
+	<browser name="safari"><version number="latest"><region name="us-east-2c"><host name="3.14.79.233" port="4444" count="1" />
+	<host name="3.18.214.24" port="4444" count="1" />
+	</region>
+	</version>
+	</browser>
+	</qa:browsers>

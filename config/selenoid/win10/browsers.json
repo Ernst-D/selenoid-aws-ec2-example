@@ -1,0 +1,53 @@
+{
+    "chrome":{
+        "default":"86.0",
+        "versions":{
+            "86.0":{
+                "image":"b740720b93e1",        
+                "port":"4444",
+                "path":"/wd/hub"
+            }
+        }
+    },
+    "MicrosoftEdge":{
+        "default":"88.0",
+        
+        "versions":{
+            "88.0":{
+                "image":"b740720b93e1",
+                "port":"4444",
+                "path":"/wd/hub"
+            }
+        }
+    },
+    "firefox":{
+        "default":"83.0",
+        
+        "versions":{
+            "83.0":{
+                "image":"selenoid/firefox:83.0",
+                "port":"4444",
+                "path":"/wd/hub"
+            }
+        }
+    },
+    "safari": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                    "image": ["/usr/bin/safaridriver"]
+            }
+        }
+    },
+    "internet explorer": {
+        "default": "11.0",
+        "versions": {
+            "11.0": {
+                "image": "b740720b93e1",
+                "port": "4444",
+                "path": "/wd/hub",
+                "privileged": true
+            }
+        }
+    }
+}

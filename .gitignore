@@ -1,0 +1,6 @@
+node_modules
+/reports/*
+# /visualregression/baseline/*
+/tmp/*
+/allure-results
+/src/main/actions/api/emailHelper/index.js

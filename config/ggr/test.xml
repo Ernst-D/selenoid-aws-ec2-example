@@ -1,0 +1,18 @@
+<qa:browsers xmlns:qa="urn:config.gridrouter.qatools.ru">
+<browser name="chrome" defaultVersion="86.0">
+    <version number="86.0">
+        <region name="1">
+            <host name="ec2-18-219-208-27.us-east-2.compute.amazonaws.com" port="4446" count="1"/>
+            <host name="ec2-3-136-159-170.us-east-2.compute.amazonaws.com" port="4446" count="1"/>
+        </region>
+    </version>
+</browser>
+<browser name="MicrosoftEdge" defaultVersion="88.0">
+    <version number="88.0">
+        <region name="1">
+            <host name="ec2-18-219-208-27.us-east-2.compute.amazonaws.com" port="4446" count="1"/>
+            <host name="ec2-3-136-159-170.us-east-2.compute.amazonaws.com" port="4446" count="1"/>
+        </region>
+    </version>
+</browser>
+</qa:browsers>

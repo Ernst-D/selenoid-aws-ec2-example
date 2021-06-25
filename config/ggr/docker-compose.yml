@@ -1,0 +1,20 @@
+version: '3'
+services:
+  ggr-linux:
+    restart: always
+    image: aerokube/ggr:latest
+    container_name: ggr_linux
+    ports:
+      - "4445:4445"
+    volumes:
+      - "/etc/grid-router:/etc/grid-router:ro"
+    command: ["-quotaDir", "/etc/grid-router/quota", "-listen", ":4445", "-users", "/etc/grid-router/users.htpasswd"]
+  ggr-win:
+    restart: always
+    image: aerokube/ggr:latest
+    container_name: ggr_windows
+    ports:
+      - "4443:4443"
+    volumes:
+      - "/etc/grid-router:/etc/grid-router:ro"
+    command: ["-quotaDir", "/etc/grid-router/quota", "-listen", ":4443", "-users", "/etc/grid-router/win.htpasswd"]

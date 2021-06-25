@@ -1,0 +1,4 @@
+nested-lookup
+boto3
+requests
+bs4
